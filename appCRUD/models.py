@@ -10,7 +10,7 @@ class Livro(models.Model):
     autor = models.CharField(max_length=255)
     capa_url = models.URLField(max_length=500, blank=True, null=True)
     
-    # Campo que o usuário pode preencher
+    # Campos que o usuário pode preencher
     nota = models.IntegerField(
         validators=[MinValueValidator(1), MaxValueValidator(10)],
         null=True, blank=True

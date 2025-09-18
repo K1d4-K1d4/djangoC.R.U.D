@@ -1,6 +1,5 @@
 from django.urls import path
-from .views import consulta_livro
+from .views import EditarResenhaView
 
 urlpatterns = [
-    path('consultar/', consulta_livro, name='consultar-livro'),
 ]

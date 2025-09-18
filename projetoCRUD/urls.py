@@ -7,6 +7,7 @@ router = DefaultRouter()
 router.register(r'livros', LivroViewSet, basename='livro')
 
 urlpatterns = [
+    path('', include(router.urls)),
+    # Removido include('appCRUD.urls') se ele só servia para editar-resenha
     path('admin/', admin.site.urls),
-    path('', include(router.urls)),  # ← API Root na raiz
 ]
