@@ -1,14 +1,12 @@
 ## Projeto API de Livros com Django REST
-Este projeto é uma API desenvolvida com Django REST Framework que permite cadastrar livros a partir da API do Google Books, consultar livros por título e armazenar informações como nota e resenha.
+Este projeto é uma API desenvolvida com Django REST Framework que permite cadastrar livros a partir da API do Google Books, consultar livros por título e armazenar uma review com nota e comentário.
 
 ## Funcionalidades
 - Consulta de livros por título usando a API do Google Books
 
 - Cadastro automático com dados enriquecidos (autor, capa, título)
 
-- Adição de nota e resenha personalizada
-
-- Evita duplicatas com base no google_books_id
+- Adição de nota e comentário personalizado
 
 - API RESTful com suporte a GET, POST, PUT, DELETE
 
@@ -55,4 +53,4 @@ Requests (para integração com Google Books API)
 - Miguel Vieira
 - Bruno Cavalcante
 
-> Documentação será atualizada de acordo com a evolução .
+> Documentação v1
