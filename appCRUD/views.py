@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from .models import Livro
-from .serializer import LivroSerializer
+from .serializers import LivroSerializer
 import requests
 
 # Listar livros cadastrados
