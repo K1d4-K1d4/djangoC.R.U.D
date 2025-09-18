@@ -49,4 +49,10 @@ Requests (para integração com Google Books API)
   venv\Scripts\python.exe manage.py runserver
   ```
 
+# Integrantes da equipe:
+- Pedro Macedo
+- Vicenzo Benelli
+- Miguel Vieira
+- Bruno Cavalcante
+
 > Documentação será atualizada de acordo com a evolução .
